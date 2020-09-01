@@ -23,10 +23,11 @@ module.exports = {
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn',
         'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
+        'no-eval': ['error', { allowIndirect: true }], // default is false
     },
     settings: {
         'import/resolver': {
             typescript: {},
         },
     },
-};
+}

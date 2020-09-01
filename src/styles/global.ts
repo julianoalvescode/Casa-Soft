@@ -9,8 +9,16 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html, body, #root {
+        height: 100%;
+        -webkit-font-smoothing: antialiased !important;
+        text-rendering: optimizeLegibility;
+    }
 
 
+    .erro {
+        margin-top: 1.25rem;
+    }
 
 
 `
